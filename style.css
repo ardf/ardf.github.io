@@ -86,8 +86,13 @@ input[type="checkbox"] {
   nav .menu-btn i {
     display: block;
   }
+  #click:not(:checked) ~ .menu-btn i:before {
+    content: "\2630";
+    font-style: normal;
+  }
   #click:checked ~ .menu-btn i:before {
-    content: "\f00d";
+    content: "\2716";
+    font-style: normal;
   }
   nav ul {
     position: fixed;
