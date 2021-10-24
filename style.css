@@ -63,10 +63,10 @@ nav ul li a {
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-nav ul li a.active,
+
 nav ul li a:hover {
-  color: #111;
-  background: transparent;
+  border-bottom: 2px solid #fff;
+  border-radius: 0px;
 }
 nav .menu-btn i {
   color: #fff;
@@ -117,10 +117,9 @@ input[type="checkbox"] {
   #click:checked ~ ul li a {
     margin-left: 0px;
   }
-  nav ul li a.active,
   nav ul li a:hover {
-    background: none;
-    color: #111;
+    border-bottom: 2px solid #fff;
+    border-radius: 0px;
   }
 }
 .content {
