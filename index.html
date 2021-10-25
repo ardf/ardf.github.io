@@ -21,6 +21,7 @@
       style="
         position: absolute;
         background-size: cover;
+        position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
@@ -33,7 +34,7 @@
       src="images/background.svg"
       alt="Background Image"
     />
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark mb-5">
       <div class="container-fluid">
         <a class="navbar-brand p-title" href="#">ardf</a>
         <button
@@ -67,19 +68,35 @@
         </div>
       </div>
     </nav>
-    <section class="intro container mt-5">
+    <br /><br /><br /><br /><br />
+
+    <section class="intro container mt-5 ms-auto me-auto">
       <img
         src="images/profile.webp"
         alt="Profile Picture"
-        class="img-responsive img-fluid rounded-circle mt-5 ms-auto profile-pic"
+        class="
+          img-responsive img-fluid
+          rounded-circle
+          center
+          mt-5
+          ms-auto
+          me-auto
+          profile-pic
+        "
+        height="200px"
+        width="200px"
       />
-      <h1 class="text-light mt-4 ms-auto">I'm Ahamed Ruyefa</h1>
-      <h4 class="text-light mt-2 ms-auto">Computer Science Engineer</h4>
+      <h1 class="text-light mt-4 ms-auto me-auto center">Ahamed Ruyefa DF</h1>
+      <h5 class="text-white-50 mt-2 ms-auto me-auto center">
+        Computer Science Engineer
+      </h5>
+      <br />
       <a
         href="https://drive.google.com/file/d/1NyrhTPEarI9ffYsd8ZDTBZnEnAx6--pj/view?usp=sharing"
         target="_blank"
-        class="btn btn-secondary mt-4"
+        class="btn btn-secondary mt-4 center"
         download="Resume-AhamedRuyefa"
+        style="width: fit-content"
         >Download Resume</a
       >
     </section>
