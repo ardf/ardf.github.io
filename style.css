@@ -22,6 +22,9 @@ body {
   max-width: 200px;
   border: 1px solid #fff;
 }
+.bi {
+  font-size: 1.5rem;
+}
 @media screen and (max-width: 768px) {
   body {
     background-repeat: no-repeat;
