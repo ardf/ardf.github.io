@@ -5,6 +5,13 @@ body {
   /* position: relative; */
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: smooth;
+}
+.center {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 .p-title {
   font-size: 2rem;
@@ -14,6 +21,9 @@ body {
   max-height: 200px;
   max-width: 200px;
   border: 1px solid #fff;
+}
+.bi {
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 768px) {
   body {
