@@ -15,7 +15,7 @@ sidebar:
   # Sidebar links
   email: ruyefadf@gmail.com
   phone: +91 6361454265
-  timezone: Asia/Kolkata Timezone
+  # timezone: Asia/Kolkata Timezone
   citizenship:
   website: ardf.github.io #do not add http://
   linkedin: ardf
@@ -25,22 +25,25 @@ sidebar:
   gitlab:
   bitbucket:
   twitter: "__ardf"
-  stack-overflow: ardf# Number/Username, e.g. 123456/alandoe
+  stack-overflow: 13764682/ardf # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
   pdf:
 
-  # languages:
-  # title: Languages
-  # info:
-  #   - idiom: English
-  #     level: Native
+  languages:
+  title: Languages
+  info:
+    - idiom: English
+      level: Professional
 
-  #   - idiom: French
-  #     level: Professional
+    - idiom: Hindi
+      level: Native
 
-  #   - idiom: Spanish
-  #     level: Professional
+    - idiom: Urdu
+      level: Native
+
+    - idiom: Arabic
+      level: Beginner
 
   # interests:
   # title: Interests
