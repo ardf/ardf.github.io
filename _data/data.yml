@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Ahamed Ruyefa
-  tagline: Software Developer
+  tagline: Software Developer | Python | Django | AWS
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -84,7 +84,7 @@ experiences:
   title: Experiences
   info:
     - role: Software Developer
-      time: 2022 - Present
+      time: OCT 2022 - Present
       company: Curus Health
       details: |
         Responsible for building the complete backend for the platform. 
@@ -95,8 +95,14 @@ experiences:
           - Created a platform for managing doctors' availability and scheduling to optimize patient care.
           - Engineered an intuitive appointment booking platform for seamless scheduling with preferred doctors.
           - Implemented Firebase push notifications for real-time alerts in the Doctor and Patient application.
-          - Experienced agile methodologies like Scrum to drive efficient software development, while utilizing Git 
-            for stream lined collaboration and version control.
+
+    - role: SDE Intern
+      time: APR 2022 - OCT 2022
+      company: Curus Health
+      details: |
+        - Developed a secure system for sharing medical history with doctors, ensuring data privacy and integrity.
+        - Experienced agile methodologies like Scrum to drive efficient software development, while utilizing Git 
+          for stream lined collaboration and version control.
 
 # certifications:
 #   title: Certifications
@@ -139,32 +145,18 @@ experiences:
 #         Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #         Praesent venenatis erat non augue suscipit consectetur.
 
-# projects:
-#   title: Projects
-#   intro: >
-#     You can list your side projects in this
-#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#   assignments:
-#     - title: Velocity
-#       link: "#hook"
-#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+  title: Projects
+  intro: >
 
-#     - title: DevStudio
-#       link: "#"
-#       tagline: "A responsive website template designed to help web developers/designers market their services."
+  assignments:
+    - title: Pothole IRS - Real-time Pothole Detection and Alerting System
+      link: "#"
+      tagline: "Cutting-edge Real-time Pothole Detection and Alerting System, utilizing the state-of-the-art YOLOv5 object detection framework to enhance road safety and mitigate vehicle damage."
 
-#     - title: Tempo
-#       link: "#"
-#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#     - title: Atom
-#       link: "#"
-#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#     - title: Delta
-#       link: "#"
-#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: BookMyShot - Vaccine Slot Notifier
+      link: "#"
+      tagline: "Web Application to provide users with real-time information on Covid-19 vaccine availability in their preferred districts."
 
 # oss:
 #   title: OSS Contributions
